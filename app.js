@@ -63,7 +63,7 @@ app.event('app_home_opened', async ({ event, client, context }) => {
 });
 
 // Lifsten for a slash command invocation
-app.command('/slash-demo-yt', async ({ ack, payload, context }) => {
+app.command('/hello-idts', async ({ ack, payload, context }) => {
     // Acknowledge the command request
     ack();
 
